@@ -4,6 +4,8 @@ nmap <Leader>q :q<CR>
 
 " easymotion 
 nmap <Leader>s <Plug>(easymotion-s2)
+
+" NerdTree
 nmap <Leader>nt :NERDTreeFind<CR>
 
 " Remap keys for gotos
