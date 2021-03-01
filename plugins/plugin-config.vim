@@ -19,4 +19,4 @@ autocmd FileType scss setl iskeyword+=@-@	" coc para archivos .scss
 command! -nargs=0 Prettier :CocCommand prettier.formatFile
 
  " emmet
-let g:user_emmet_leader_key='<C-B>'
+let g:user_emmet_leader_key='<C-V>'
