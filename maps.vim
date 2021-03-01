@@ -1,6 +1,16 @@
+" clipboard 'xclip'
+
 " keyboard shortcuts
 nmap <Leader>w :w<CR>  
 nmap <Leader>q :q<CR>  
+
+" move blocks of code in visual mode or v-line
+xnoremap k :move '<-2<CR>gv-gv
+xnoremap j :move '>+1<CR>gv-gv
+
+" Indentar code in visual mode or v-line
+xnoremap < <gv
+xnoremap > >gv
 
 " easymotion 
 nmap <Leader>s <Plug>(easymotion-s2)
