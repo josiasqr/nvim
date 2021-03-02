@@ -12,4 +12,8 @@ set sw=2                  "
 set relativenumber        " empieza a enumear de donde esta el cursos hacia arriba y hacia abajo
 set laststatus=2          " mostrar siempre la barra de status
 set noshowmode            " ocultar la linea INSERT cuando estamos en INSERT
+set termguicolors
+set noswapfile
+set scrolloff=5
+set switchbuf=usetab
 
