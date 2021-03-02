@@ -9,6 +9,8 @@ call plug#begin('~/.config/nvim/plugged')
   Plug 'mattn/emmet-vim'
   Plug 'itchyny/lightline.vim'
   " Plug 'Yggdroot/indentLine'
+  Plug 'norcalli/nvim-colorizer.lua'
+  Plug 'Yohannfra/Nvim-Switch-Buffer'
 
   Plug 'tpope/vim-commentary'
   Plug 'digitaltoad/vim-pug'
