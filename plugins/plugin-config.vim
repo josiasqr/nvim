@@ -3,6 +3,10 @@ let g:gruvbox_italic = 1
 let g:gruvbox_contrast_dark = 'hard'
 colorscheme gruvbox
 
+" Plugin SwitchBuffer
+nnoremap S :SwitchBuffer <CR>
+let g:switch_buffer_hide_numbers = 1
+
 " nerdtree
 let NERDTreeQuitOnOpen = 1
 let NERDTreeShowHidden = 1
