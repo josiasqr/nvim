@@ -1,2 +1,5 @@
-# nvim
-coc-vimlsp, coc-prettier, coc-pairs, coc-html, coc-tsserver, coc-json, coc-css
+# Neovim
+Configuración de Neovim en Arch Linux
+# CocList extensions
+:CocInstall coc-prettier coc-html coc-vimlsp coc-tsserver coc-phpls coc-json coc-css coc-pairs
+

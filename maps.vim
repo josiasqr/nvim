@@ -35,3 +35,10 @@ nmap <leader>f <Plug>(coc-format-selected)
 nnoremap <leader>. :Commentary<CR>
 vnoremap <leader>. :Commentary<CR>
 
+" Plugin SwitchBuffer
+nnoremap S :SwitchBuffer <CR>
+
+" Terminal
+vnoremap <c-t> :split<CR>:ter<CR>:resize 15<CR>
+nnoremap <c-t> :split<CR>:ter<CR>:resize 15<CR>
+

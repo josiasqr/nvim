@@ -16,4 +16,6 @@ set termguicolors
 set noswapfile
 set scrolloff=5
 set switchbuf=usetab
+set splitbelow
+set splitright
 
