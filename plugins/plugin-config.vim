@@ -21,5 +21,9 @@ autocmd FileType scss setl iskeyword+=@-@	" coc para archivos .scss
 " prettier
 command! -nargs=0 Prettier :CocCommand prettier.formatFile
 
- " emmet
+" emmet
 let g:user_emmet_leader_key='<C-V>'
+
+" php default indent 
+let b:PHP_default_indenting = 1
+

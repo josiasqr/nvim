@@ -11,6 +11,7 @@ call plug#begin('~/.config/nvim/plugged')
   " Plug 'Yggdroot/indentLine'
   Plug 'norcalli/nvim-colorizer.lua'
   Plug 'Yohannfra/Nvim-Switch-Buffer'
+  Plug 'pangloss/vim-javascript'
 
   Plug 'tpope/vim-commentary'
   Plug 'digitaltoad/vim-pug'
