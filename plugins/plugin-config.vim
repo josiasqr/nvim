@@ -27,3 +27,8 @@ let g:user_emmet_leader_key='<C-V>'
 " php default indent 
 let b:PHP_default_indenting = 1
 
+" IndentLine
+let g:indentLine_enabled = 1
+let g:indentLine_concealcursor = 0
+let g:indentLine_char = '┆'
+let g:indentLine_faster = 1
