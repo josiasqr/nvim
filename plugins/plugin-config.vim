@@ -32,3 +32,6 @@ let g:indentLine_enabled = 1
 let g:indentLine_concealcursor = 0
 let g:indentLine_char = '┆'
 let g:indentLine_faster = 1
+
+" file 'pug' no tabs
+autocmd Filetype pug setlocal ts=2 sw=2 sts=0 expandtab
